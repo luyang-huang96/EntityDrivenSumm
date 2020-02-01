@@ -5,7 +5,7 @@ This code is adapted from https://github.com/ChenRocks/fast_abs_rl.
 
 We are not allowed to share data/outputs on New York Times Dataset. If you need data/outputs on New York Times Dataset, please email me with your license and we're glad to share our processed data/outputs on NYT dataset for research purpose.  
 
-my permenant email address: luyang.huang96@gmail.com
+My permenant email address: luyang.huang96@gmail.com
 
 ## How to train our model  
 
