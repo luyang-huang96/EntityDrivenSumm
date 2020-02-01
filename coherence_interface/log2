@@ -1,0 +1,9 @@
+nohup: ignoring input
+2019-04-29 20:42:24.181631: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-04-29 20:42:24.331493: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: TITAN Xp major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:04:00.0
+totalMemory: 11.90GiB freeMemory: 10.42GiB
+2019-04-29 20:42:24.331556: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN Xp, pci bus id: 0000:04:00.0, compute capability: 6.1)
+embed matrix:  <tf.Variable 'seq_match/embeddings/embeddings:0' shape=(100002, 300) dtype=float32_ref>
+./save_model/cnndm_new_pairwise/bestval

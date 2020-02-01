@@ -1,0 +1,12 @@
+This is for NYT coherence computation
+
+- main function: coherence_inference.py
+
+- usgae:
+word_dict, model, sess = graph_init() # initialization
+
+# input: [sent1, sent2, ...]; each sent is a string, can be tokenized by space
+score = coherence_infer(input, model, sess, word_dict)
+
+
+

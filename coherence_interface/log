@@ -1,0 +1,6 @@
+nohup: ignoring input
+2019-05-02 16:18:27.120672: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-05-02 16:18:27.137445: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-02 16:18:27.137489: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      
+embed matrix:  <tf.Variable 'seq_match/embeddings/embeddings:0' shape=(100002, 300) dtype=float32_ref>
+./save_model/nyt_new_pairwise/bestval
