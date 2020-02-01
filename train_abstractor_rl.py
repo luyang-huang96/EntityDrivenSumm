@@ -175,7 +175,7 @@ def main(args):
 
     if args.coherence or args.all_local:
         print('use coref score')
-        word_dict, model, sess = graph_init(model="cnndm2")
+        word_dict, model, sess = graph_init(model="cnndm")
         coh_func = (model, sess, word_dict)
         print('finish load coref model')
     else:

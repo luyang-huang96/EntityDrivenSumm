@@ -107,7 +107,7 @@ def global_infer(docs, word_dict, model, sess):
 #     saver.restore(sess, ckpt.model_checkpoint_path)
 #     return word_dict, model, sess
 
-def graph_init(gpu_mem_use=0.1, gpu_use=0, model="cnndm1"):
+def graph_init(gpu_mem_use=0.1, gpu_use=0, model="cnndm"):
     print('coherence model:', model)
     def add_arguments(parser):
         parser.add_argument("--embedding_size", type=int, default=300, help="Word embedding size.")
@@ -118,14 +118,11 @@ def graph_init(gpu_mem_use=0.1, gpu_use=0, model="cnndm1"):
     # add_arguments(parsers)
     # argss = parsers.parse_args()
     if model == "nyt":
-        model_path = "/home/zhe/workspace/coherence_interface/save_model/nyt_new_pairwise/"
-        word_dict = pickle.load(open("/home/zhe/workspace/coherence_interface/save_model/nyt_new_pairwise/vocab.pickle", 'rb'))
-    elif model == "cnndm1":
-        model_path = "/home/luyang/fast_rl_code/fast_rl_code/coherence_interface/save_model/cnn_finetune1"
-        word_dict = pickle.load(open("/home/luyang/fast_rl_code/fast_rl_code/coherence_interface/save_model/cnn_finetune1/vocab.pickle", 'rb'))
-    elif model == "cnndm2":
-        model_path = "/home/luyang/fast_rl_code/fast_rl_code/coherence_interface/save_model/cnn_finetune2"
-        word_dict = pickle.load(open("/home/luyang/fast_rl_code/fast_rl_code/coherence_interface/save_model/cnn_finetune2/vocab.pickle", 'rb'))
+        model_path = "./coherence_interface/save_model/nyt_new_pairwise/"
+        word_dict = pickle.load(open("./coherence_interface/save_model/nyt_new_pairwise/vocab.pickle", 'rb'))
+    elif model == "cnndm":
+        model_path = "./coherence_interface/save_model/cnndm_new_pairwise"
+        word_dict = pickle.load(open("./coherence_interface/save_model/cnndm_new_pairwise/vocab.pickle", 'rb'))
     else:
         raise ValueError("model must be either <nyt> or <cnndm>")
 
