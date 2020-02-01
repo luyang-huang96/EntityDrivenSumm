@@ -3,11 +3,15 @@ Code for EMNLP2019 paper: An Entity-Driven Framework for Abstractive Summarizati
 
 This code is adapted from https://github.com/ChenRocks/fast_abs_rl. 
 
-We are not allowed to share data/outputs on New York Times Dataset. If you need data/outputs on New York Times Dataset, please email me with your license and we're glad to share with you our processed data/outputs on NYT dataset for researcg purpose.  
+We are not allowed to share data/outputs on New York Times Dataset. If you need data/outputs on New York Times Dataset, please email me with your license and we're glad to share our processed data/outputs on NYT dataset for research purpose.  
+
+my permenant email address: luyang.huang96@gmail.com
 
 ## How to train our model  
 
 1. our processed data with gold extract labels and entities can be found here:  
+
+https://drive.google.com/file/d/1PiUqGxIZ2veBzGo1MzisFWaR0mRsBdL3/view?usp=sharing  
 
 2. To train our best model:  
 
