@@ -43,7 +43,7 @@ python train_full_rl.py --path=[path/to/joint/model] --abs_dir=[path/to/abs_rl/m
 
 5) decode 
 ```
-python decode_full_model.py --path=[path/to/save/decoded/files] --model_dir=[path/to/joint/model] --beam=[beam_size] [--test/--val]
+python decode_full_model.py --path=[path/to/save/decoded/files] --model_dir=[path/to/joint/model] --beam=[beam_size] [--test/--val] --entity --sc
 ```
 
 6) evaluate  
